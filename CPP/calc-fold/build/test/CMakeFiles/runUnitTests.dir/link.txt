@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/runUnitTests.dir/src/test.cpp.o  -o runUnitTests  ../lib/libgtest.a ../lib/libgtest_main.a ../libcalc_fold_lib.a ../lib/libgtest.a -lpthread 

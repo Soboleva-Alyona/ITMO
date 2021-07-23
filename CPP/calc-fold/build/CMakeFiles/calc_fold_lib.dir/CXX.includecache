@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/calc.h
+string
+-
+
+/home/dead/CPPcourseITMO/calc-fold-Soboleva-Alyona/src/calc.cpp
+calc.h
+/home/dead/CPPcourseITMO/calc-fold-Soboleva-Alyona/src/calc.h
+cctype
+-
+cmath
+-
+iostream
+-
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcalc_fold_lib.a  CMakeFiles/calc_fold_lib.dir/src/calc.cpp.o
+/usr/bin/ranlib libcalc_fold_lib.a

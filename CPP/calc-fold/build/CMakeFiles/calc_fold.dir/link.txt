@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/calc_fold.dir/src/main.cpp.o  -o calc_fold  libcalc_fold_lib.a 
