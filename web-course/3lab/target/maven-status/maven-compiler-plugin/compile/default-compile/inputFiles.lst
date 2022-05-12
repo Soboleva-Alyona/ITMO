@@ -1,0 +1,4 @@
+/home/dead/web/3lab/src/main/java/ru/itmo/wp/servlet/StaticServlet.java
+/home/dead/web/3lab/src/main/java/ru/itmo/wp/util/ImageUtils.java
+/home/dead/web/3lab/src/main/java/ru/itmo/wp/servlet/GzipFilter.java
+/home/dead/web/3lab/src/main/java/ru/itmo/wp/servlet/DelayedHttpServletResponse.java
