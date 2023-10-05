@@ -1,0 +1,36 @@
+MemTotal:        1014756 kB
+
+Last number in report log - 13000000
+
+in /var/syslog/messages:
+Dec 24 23:28:24 localhost kernel: Out of memory: Kill process 6639 (mem.bash) score 553 or sacrifice child
+Dec 24 23:28:24 localhost kernel: Killed process 6639 (mem.bash), UID 1000, total-vm:1200896kB, anon-rss:667640kB, file-rss:0kB, shmem-rss:0kB
+
+Dec 24 23:28:24 localhost kernel: [ pid ]   uid  tgid total_vm      rss nr_ptes swapents oom_score_adj name
+
+Dec 24 23:28:24 localhost kernel: [ 6681]     0  6681    12225       85      23      502             0 systemd-udevd
+
+
+[  199.747593] [ 2660]  1000  2660   287866   176183     520    83435             0 mem.bash
+[  199.747605] Out of memory: Kill process 2660 (mem.bash) score 561 or sacrifice child
+[  199.747609] Killed process 2660 (mem.bash), UID 1000, total-vm:1151464kB, anon-rss:704732kB, file-rss:0kB, shmem-rss:0kB
+
+
+2 step:
+mem - 12000000
+mem2 - 6000000
+
+[ 1381.324727] [ 6762]  1000  6762   150751    83260     253    39218             0 mem.bash
+[ 1421.551761] [ 6762]  1000  6762   271762   170778     489    72724             0 mem.bash
+[ 1421.551767] Out of memory: Kill process 6762 (mem.bash) score 526 or sacrifice child
+[ 1421.551770] Killed process 6762 (mem.bash), UID 1000, total-vm:1087048kB, anon-rss:683112kB, file-rss:0kB, shmem-rss:0kB
+
+
+
+mem2 :
+[ 1381.324728] [ 6763]  1000  6763   151708    83754     253    39685             0 mem2.bash
+[ 1381.324734] Out of memory: Kill process 6763 (mem2.bash) score 266 or sacrifice child
+[ 1381.324738] Killed process 6763 (mem2.bash), UID 1000, total-vm:606832kB, anon-rss:335016kB, file-rss:0kB, shmem-rss:0kB
+
+
+

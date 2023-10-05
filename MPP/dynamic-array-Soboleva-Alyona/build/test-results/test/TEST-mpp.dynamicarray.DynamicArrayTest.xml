@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mpp.dynamicarray.DynamicArrayTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-22T18:03:37" hostname="MacBook-Air-Elena-Soboleva.local" time="412.785">
+  <properties/>
+  <testcase name="stressTest" classname="mpp.dynamicarray.DynamicArrayTest" time="412.785"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

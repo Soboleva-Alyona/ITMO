@@ -1,0 +1,14 @@
+1014756 -total 435564 -free 462932 -used 116260 -buff/cashe
+839676 -total 29164 -free 810512 -used 416468 -buff/cashe
+(B[m
+(B[m
+(B[m
+(B[m
+(B[m
+1014756 -total 435276 -free 463180 -used 116300 -buff/cashe
+839676 -total 29164 -free 810512 -used 416604 -buff/cashe
+(B[m
+(B[m[1m
+(B[m
+(B[m
+(B[m

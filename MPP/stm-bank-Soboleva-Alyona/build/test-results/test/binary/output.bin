@@ -1,0 +1,11 @@
+*Phase # 1 - done    114,189 ops (warm up)
+*Phase # 2 - done     12,132 ops (warm up)
+*Phase # 3 - done      5,666 ops (warm up)
+*Phase # 4 - done     10,193 ops (warm up)
+*Phase # 5 - done      6,266 ops (warm up)
+*Phase # 6 - done      6,488 ops (measure)
+*Phase # 7 - done      5,818 ops (measure)
+*Phase # 8 - done      6,925 ops (measure)
+*Phase # 9 - done      6,355 ops (measure)
+*Phase #10 - done      4,920 ops (measure)
+$Average ops per phase: 6,101 +- 769

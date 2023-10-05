@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StressTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-21T18:52:32" hostname="MacBook-Air-Elena-Soboleva.local" time="3.04">
+  <properties/>
+  <testcase name="testStress" classname="StressTest" time="3.04"/>
+  <system-out><![CDATA[1: Working 269960
+2: Working 584802
+3: Working 915112
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

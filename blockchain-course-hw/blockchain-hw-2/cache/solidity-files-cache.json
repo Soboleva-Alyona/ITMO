@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/esoboleva/itmo/blockchain/blockchain-hw-2/contracts/NFTDelivery.sol": {
+      "lastModificationDate": 1666896095950,
+      "contentHash": "0a5b1079f309ed9c3cda35b74a83321d",
+      "sourceName": "contracts/NFTDelivery.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "NFTDelivery"
+      ]
+    }
+  }
+}

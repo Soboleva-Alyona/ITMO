@@ -1,0 +1,17 @@
+all:
+	g++ pe-parser.cpp -o pe-parser
+
+clean:
+	rm -rf *.o pe-parser
+
+validation-pe-tests: all
+	python3 -m tests ValidatingPeTestCases -f
+
+import-dll-tests: all
+	python3 -m tests ImportDllTestCases -f
+
+import-function-tests: all
+	python3 -m tests ImportFunctionTestCases -f
+
+export-function-tests: all
+	python3 -m tests ExportFunctionTestCases -f

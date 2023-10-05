@@ -1,0 +1,8 @@
+nasm -f elf64 -g mod.asm
+
+##to make an obj. file in 64 arc
+
+ld -g mod.o 
+##to make exe file
+
+

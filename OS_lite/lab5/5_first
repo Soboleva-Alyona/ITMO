@@ -1,0 +1,168 @@
+ 2660 alyonas+  20   0  168328  56436   1224 R 93.8  5.6   0:05.26 mem.bash
+    1 root      20   0  193960   3136   1684 S  0.0  0.3   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  180076  68052   1224 R 86.7  6.7   0:06.39 mem.bash
+ 1935 alyonas+  20   0 2988328 139672  38036 S 20.0 13.8   0:05.73 gnome-shell
+ 2726 alyonas+  20   0  162100   2136   1512 R  6.7  0.2   0:00.01 top
+    1 root      20   0  193960   3136   1684 S  0.0  0.3   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+
+ 2660 alyonas+  20   0  192352  80460   1236 R 87.5  7.9   0:07.56 mem.bash
+   30 root      20   0       0      0      0 S 12.5  0.0   0:00.67 kswapd0
+    1 root      20   0  193960   3136   1684 S  0.0  0.3   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+
+ 2660 alyonas+  20   0  207928  96036   1236 R 93.8  9.5   0:08.78 mem.bash
+   30 root      20   0       0      0      0 S  6.2  0.0   0:00.68 kswapd0
+    1 root      20   0  193960   3136   1684 S  0.0  0.3   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+
+ 2660 alyonas+  20   0  229972 117948   1236 R 93.8 11.6   0:10.00 mem.bash
+    1 root      20   0  193960   2972   1520 S  0.0  0.3   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  255316 143292   1236 R 99.9 14.1   0:11.41 mem.bash
+ 1396 root      20   0  317924  33360  12360 S  6.7  3.3   0:01.31 X
+    1 root      20   0  193960   2964   1512 S  0.0  0.3   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+
+ 2660 alyonas+  20   0  276964 164940   1236 R 93.8 16.3   0:12.62 mem.bash
+   30 root      20   0       0      0      0 R  6.2  0.0   0:00.72 kswapd0
+    1 root      20   0  193960   2660   1208 S  0.0  0.3   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+
+ 2660 alyonas+  20   0  299536 187560   1152 R 93.8 18.5   0:13.87 mem.bash
+    1 root      20   0  193960   2520   1068 S  0.0  0.2   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  329764 217532   1028 R 82.4 21.4   0:15.58 mem.bash
+   30 root      20   0       0      0      0 S  5.9  0.0   0:00.80 kswapd0
+    1 root      20   0  193960   2056    612 S  0.0  0.2   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+
+ 2660 alyonas+  20   0  364612 251864    576 R 78.9 24.8   0:17.55 mem.bash
+    1 root      20   0  193960   1752    332 S  0.0  0.2   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  402760 290116    548 R 73.7 28.6   0:19.73 mem.bash
+   30 root      20   0       0      0      0 S  5.3  0.0   0:01.01 kswapd0
+    1 root      20   0  193960   2248    828 S  0.0  0.2   0:01.79 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+
+ 2660 alyonas+  20   0  439060 326448    508 R 70.0 32.2   0:21.84 mem.bash
+ 1935 alyonas+  20   0 2987384  92664  14308 R  5.0  9.1   0:06.04 gnome-shell
+    1 root      20   0  193960   1684    264 S  0.0  0.2   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+
+ 2660 alyonas+  20   0  473116 360504    508 R 80.0 35.5   0:23.72 mem.bash
+   30 root      20   0       0      0      0 S  5.0  0.0   0:01.23 kswapd0
+ 2872 alyonas+  20   0  162100   2132   1512 R  5.0  0.2   0:00.01 top
+    1 root      20   0  193960   1684    264 S  0.0  0.2   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+
+ 2660 alyonas+  20   0  508228 395560    516 R 65.0 39.0   0:25.80 mem.bash
+   30 root      20   0       0      0      0 S 10.0  0.0   0:01.43 kswapd0
+ 1935 alyonas+  20   0 2987384  83792  11136 R  5.0  8.3   0:06.13 gnome-shell
+    1 root      20   0  193960   1648    228 S  0.0  0.2   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+
+ 2660 alyonas+  20   0  545452 432748    480 R 65.0 42.6   0:27.83 mem.bash
+   30 root      20   0       0      0      0 S 10.0  0.0   0:01.49 kswapd0
+    1 root      20   0  193960   1648    228 S  0.0  0.2   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+
+ 2660 alyonas+  20   0  573700 460996    480 R 88.2 45.4   0:29.42 mem.bash
+    1 root      20   0  193960   1644    228 S  0.0  0.2   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  615940 503164    448 R 75.0 49.6   0:31.80 mem.bash
+    1 root      20   0  193960   1608    192 S  0.0  0.2   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  661480 548828    512 R 71.4 54.1   0:34.36 mem.bash
+    1 root      20   0  193960   1604    188 S  0.0  0.2   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  713884 600928    428 R 68.2 59.2   0:37.16 mem.bash
+   30 root      20   0       0      0      0 S  9.1  0.0   0:01.88 kswapd0
+ 2944 alyonas+  20   0  162100   1708   1084 R  4.5  0.2   0:00.01 top
+    1 root      20   0  193960   1116    164 S  0.0  0.1   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+
+ 2660 alyonas+  20   0  763384 608004    468 R 80.0 59.9   0:40.02 mem.bash
+ 1935 alyonas+  20   0 2986360  53188  12636 R  5.0  5.2   0:06.41 gnome-shell
+    1 root      20   0  193960   1080    160 S  0.0  0.1   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+
+ 2660 alyonas+  20   0  796252 622020    468 R 88.9 61.3   0:41.85 mem.bash
+    1 root      20   0  193960   1080    160 S  0.0  0.1   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  827404 636380    496 R 75.0 62.7   0:43.56 mem.bash
+    1 root      20   0  193960   1080    160 S  0.0  0.1   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  866872 610372    476 R 78.9 60.1   0:45.67 mem.bash
+    1 root      20   0  193960   1080    160 S  0.0  0.1   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+    4 root       0 -20       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0H
+
+ 2660 alyonas+  20   0  911752 612616    408 R 78.9 60.4   0:48.25 mem.bash
+   30 root      20   0       0      0      0 S  5.3  0.0   0:02.46 kswapd0
+ 1935 alyonas+  20   0 2986360  48992   8232 D  5.3  4.8   0:06.56 gnome-shell
+    1 root      20   0  193960   1068    148 S  0.0  0.1   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+
+ 2660 alyonas+  20   0  962836 629408    408 R 75.0 62.0   0:51.15 mem.bash
+   30 root      20   0       0      0      0 S  5.0  0.0   0:02.65 kswapd0
+  730 root      20   0   90568    124    124 R  5.0  0.0   0:01.14 rngd
+ 1935 alyonas+  20   0 2986360  51184   9900 R  5.0  5.0   0:06.63 gnome-shell
+    1 root      20   0  193960    916    148 S  0.0  0.1   0:01.80 systemd
+
+ 2660 alyonas+  20   0 1007452 644820    424 R 71.4 63.5   0:53.66 mem.bash
+   30 root      20   0       0      0      0 S  4.8  0.0   0:02.79 kswapd0
+ 3030 alyonas+  20   0  162100   2136   1512 R  4.8  0.2   0:00.01 top
+    1 root      20   0  193960    608    148 S  0.0  0.1   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+
+ 2660 alyonas+  20   0 1051540 655488    488 R 73.7 64.6   0:56.17 mem.bash
+   30 root      20   0       0      0      0 S  5.3  0.0   0:02.97 kswapd0
+ 1935 alyonas+  20   0 2986360  39972   6956 R  5.3  3.9   0:06.75 gnome-shell
+    1 root      20   0  193960    580    148 S  0.0  0.1   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+
+ 2660 alyonas+  20   0 1109356 664124    396 R 73.9 65.4   0:59.47 mem.bash
+ 1935 alyonas+  20   0 2985336  42384   9476 R  4.3  4.2   0:06.85 gnome-shell
+    1 root      20   0  193960    568    136 S  0.0  0.1   0:01.80 systemd
+    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kworker/0:0
+

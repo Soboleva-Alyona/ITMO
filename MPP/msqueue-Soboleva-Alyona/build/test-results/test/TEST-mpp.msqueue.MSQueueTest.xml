@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mpp.msqueue.MSQueueTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-01-14T16:00:52" hostname="MacBook-Air-Elena-Soboleva.local" time="182.153">
+  <properties/>
+  <testcase name="stressTest" classname="mpp.msqueue.MSQueueTest" time="63.852"/>
+  <testcase name="modelCheckingTest" classname="mpp.msqueue.MSQueueTest" time="118.299"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
