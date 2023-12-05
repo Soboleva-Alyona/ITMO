@@ -16,7 +16,6 @@ class ParQuickSort(
         threadPool.invoke(
             SortTask(array, 0, array.size - 1, seqBlockSize)
         )
-        threadPool.shutdown()
         return array
     }
 

@@ -1,19 +1,21 @@
 import impl.ParQuickSort
 import impl.SeqQuickSort
 import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.system.measureTimeMillis
 
 fun main() {
     // test seq
     val seq = SeqQuickSort()
     val array = generateArray(10, 1000)
+    val arrayPar = ArrayList(array)
+
     println(array)
     seq.sort(array)
     println(array)
 
     // test par
     val par = ParQuickSort()
-    val arrayPar = generateArray(10, 1000)
     println(arrayPar)
     par.sort(arrayPar)
     println(arrayPar)
@@ -27,6 +29,7 @@ fun runNTimes(n: Int, size: Int = 1e8.toInt()) {
     var parSumTime = 0L
 
     val seqQuickSort = SeqQuickSort()
+    val parQuickSort = ParQuickSort()
 
     (1..n).forEach {
         println("Run number $it for array of size=$size")
@@ -36,19 +39,20 @@ fun runNTimes(n: Int, size: Int = 1e8.toInt()) {
         val seqTime = measureTimeMillis {
             seqQuickSort.sort(arrayForSeqSort)
         }
-        val parQuickSort = ParQuickSort(seqBlockSize = 1e3.toInt())
+        println("Sequential time: $seqTime ms")
+        seqSumTime += seqTime
+
 
         val parTime = measureTimeMillis {
             parQuickSort.sort(arrayForParSort)
         }
-        println("Sequential time: $seqTime ms")
-        seqSumTime += seqTime
         println("Parallel time: $parTime ms")
         parSumTime += parTime
         println("---------------------------------------")
     }
     println("Average sequential time: ${seqSumTime  / n} ms VS Average parallel time: ${parSumTime  / n} ms")
-    println("Parallel is ${seqSumTime.div(parSumTime)} faster then sequential")
+    val coeff = seqSumTime.div(parSumTime.toFloat())
+    println("Parallel is $coeff faster then sequential")
 
 }
 
