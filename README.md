@@ -1,1 +1,1 @@
-repository for hackatome project
+Some of my homeworks from university courses
