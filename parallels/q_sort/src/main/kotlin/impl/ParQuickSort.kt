@@ -12,15 +12,19 @@ class ParQuickSort(
 
     private val threadPool = ForkJoinPool(nThreads)
 
-    override fun sort(array: ArrayList<Int>): ArrayList<Int> {
+    override fun sort(array: IntArray): IntArray {
         threadPool.invoke(
             SortTask(array, 0, array.size - 1, seqBlockSize)
         )
         return array
     }
 
+    fun shutdown() {
+        threadPool.shutdownNow()
+    }
+
     private class SortTask(
-        val array: ArrayList<Int>,
+        val array: IntArray,
         val l: Int,
         val r: Int,
         val seqBlockSize: Int
@@ -45,7 +49,7 @@ class ParQuickSort(
             }
         }
 
-        private fun partition(array: ArrayList<Int>, l: Int, r: Int): Int {
+        private fun partition(array: IntArray, l: Int, r: Int): Int {
             val m = rand.nextInt(l, r)
             val value = array[m]
 
@@ -69,7 +73,7 @@ class ParQuickSort(
             return j
         }
 
-        private fun swap(array: ArrayList<Int>, first: Int, second: Int) {
+        private fun swap(array: IntArray, first: Int, second: Int) {
             val firstVal = array[first]
             array[first] = array[second]
             array[second] = firstVal

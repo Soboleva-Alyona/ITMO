@@ -1,39 +1,40 @@
 
 ### Результаты 5 запусков на случайных массивах (в файле [Main.kt](src/main/kotlin/Main.kt)):
-Run number 1 for array of size=10000000
+Run number 1 for array of size=100000000
 
-Sequential time: 3222 ms
+Sequential time: 18106 ms
 
-Parallel time: 1553 ms
-
----------------------------------------
-Run number 2 for array of size=10000000
-
-Sequential time: 2998 ms
-
-Parallel time: 1517 ms
+Parallel time: 6216 ms
 
 ---------------------------------------
-Run number 3 for array of size=10000000
+Run number 2 for array of size=100000000
 
-Sequential time: 3236 ms
+Sequential time: 17486 ms
 
-Parallel time: 1118 ms
-
----------------------------------------
-Run number 4 for array of size=10000000
-
-Sequential time: 3074 ms
-
-Parallel time: 1135 ms
+Parallel time: 6390 ms
 
 ---------------------------------------
-Run number 5 for array of size=10000000
+Run number 3 for array of size=100000000
 
-Sequential time: 3418 ms
+Sequential time: 17322 ms
 
-Parallel time: 1167 ms
+Parallel time: 5875 ms
 
 ---------------------------------------
-### Average sequential time: 3189 ms VS Average parallel time: 1298 ms
-Parallel is 2.457319 faster then sequential
+Run number 4 for array of size=100000000
+
+Sequential time: 17593 ms
+
+Parallel time: 5262 ms
+
+---------------------------------------
+Run number 5 for array of size=100000000
+
+Sequential time: 17269 ms
+
+Parallel time: 6177 ms
+
+---------------------------------------
+Average sequential time: 17555 ms VS Average parallel time: 5984 ms
+
+Parallel is 2.9336898 faster then sequential

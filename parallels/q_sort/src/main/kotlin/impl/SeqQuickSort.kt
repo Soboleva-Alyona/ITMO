@@ -7,12 +7,12 @@ class SeqQuickSort : QuickSort {
 
     private val rand = Random()
 
-    override fun sort(array: ArrayList<Int>): ArrayList<Int> {
+    override fun sort(array: IntArray): IntArray {
         quickSortInterval(array, 0, array.size - 1)
         return array
     }
 
-    fun quickSortInterval(array: ArrayList<Int>, l: Int, r: Int) {
+    fun quickSortInterval(array: IntArray, l: Int, r: Int) {
         if (l < r) {
             val m = partition(array, l, r)
             quickSortInterval(array, l, m)
@@ -20,7 +20,7 @@ class SeqQuickSort : QuickSort {
         }
     }
 
-    private fun partition(array: ArrayList<Int>, l: Int, r: Int): Int {
+    private fun partition(array: IntArray, l: Int, r: Int): Int {
         val m = rand.nextInt(l, r + 1)
         val value = array[m]
 
@@ -44,7 +44,7 @@ class SeqQuickSort : QuickSort {
         return j
     }
 
-    private fun swap(array: ArrayList<Int>, first: Int, second: Int) {
+    private fun swap(array: IntArray, first: Int, second: Int) {
         val firstVal = array[first]
         array[first] = array[second]
         array[second] = firstVal
