@@ -19,10 +19,9 @@ class SequentialBFS : BFS {
         while (queue.isNotEmpty()) {
             val u = queue.removeFirst()
             graph.edgesFromVertex(u).forEach { v ->
-                val vIndex = graph.countPointIndex(v)
-                if (visited[vIndex] == 0) {
-                    visited[vIndex] = 1
-                    d[vIndex] = d[graph.countPointIndex(u)] + 1
+                if (visited[graph.countPointIndex(v)] == 0) {
+                    visited[graph.countPointIndex(v)] = 1
+                    d[graph.countPointIndex(v)] = d[graph.countPointIndex(u)] + 1
                     queue.add(v)
                 }
             }

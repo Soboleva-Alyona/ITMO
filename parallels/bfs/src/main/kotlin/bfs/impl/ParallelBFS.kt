@@ -3,6 +3,7 @@ package bfs.impl
 import bfs.BFS
 import data.Graph
 import data.Point
+import utils.Fork2JoinUtils
 import java.util.concurrent.ForkJoinPool
 import java.util.concurrent.RecursiveAction
 import java.util.concurrent.atomic.AtomicIntegerArray
@@ -37,12 +38,13 @@ class ParallelBFS(
         d: IntArray
     ): Array<Point?> {
         val degs = IntArray(frontier.size) { graph.edgesFromVertex(frontier[it]).size }
-        val degsLast = degs.last()
-        seqScan(degs, 0, degs.size - 1)
-        val newFrontier = Array<Point?>(degs.last() + degsLast) { null }
+//        val degsLast = degs.last()
+        val scannedDegs = parScan(degs)
+//        val toCheck = seqScan(degs)
+        val newFrontier = Array<Point?>(scannedDegs.last()) { null }
 
         threadPool.invoke(
-            PForAction(
+            Fork2JoinUtils.PForAction(
                 0,
                 frontier.size - 1,
                 { indexInFrontier ->
@@ -52,7 +54,7 @@ class ParallelBFS(
                         graphDims,
                         visited,
                         newFrontier,
-                        degs,
+                        scannedDegs,
                         indexInFrontier,
                         d
                     )
@@ -87,43 +89,23 @@ class ParallelBFS(
         }
     }
 
-    private class PForAction(
-        val l: Int,
-        val r: Int,
-        val lambda: (Int) -> Unit,
-        val seqBlockSize: Int = 10
-    ) : RecursiveAction() {
-
-        override fun compute() {
-            if (r - l < seqBlockSize) {
-                (l..r).forEach {
-                    lambda(it)
-                }
-                return
-            }
-
-            val m = (l + r) / 2;
-
-            invokeAll(
-                PForAction(l, m, lambda),
-                PForAction(m + 1, r, lambda)
-            )
-        }
-    }
-
     fun shutdown() {
         threadPool.shutdown()
     }
 
 
     // exclusive
-    private fun seqScan(array: IntArray, l: Int, r: Int) {
+    private fun parScan(array: IntArray): IntArray {
         if (array.isEmpty()) {
             throw IllegalStateException("Empty array")
         }
+        return Fork2JoinUtils.ParallelScan().scan(array)
+    }
+
+    private fun seqScan(array: IntArray) {
         var prevValue = 0
         var prevSum = 0
-        for (i in (l..r)) {
+        for (i in array.indices) {
             val curValue = array[i]
             array[i] = prevSum + prevValue
             prevSum += prevValue

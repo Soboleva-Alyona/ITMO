@@ -6,8 +6,6 @@ class Graph(
     val dim: Int,
     vararg val sizes: Int
 ) {
-    // todo по факту sizes для произвольного графа не определено - нужно либо совсем убрать
-    // todo либо сделать необязательным - нужно только когда определена edgeFunctions
 
     private var matrix: Array<*>? = null
 
@@ -30,54 +28,6 @@ class Graph(
         return i
     }
 
-    fun setMatrix(matrix: Array<*>) {
-        var currentLayer = matrix[0]
-
-        var matrixDim = 0
-        while (currentLayer is Array<*>) {
-            currentLayer = currentLayer[0]
-            matrixDim++
-        }
-
-        if (matrixDim != dim) {
-            throw IllegalArgumentException("Matrix dim doesn't correspond to graph dim")
-        }
-
-        this.matrix = matrix
-    }
-
-    fun hasEdge(a: Point, b: Point): Boolean {
-        if (a.dim != b.dim || a.dim != this.dim) {
-            throw IllegalArgumentException("Points dim doesn't correspond to graph dim")
-        }
-
-        if (matrix == null && edgeFunctions == null) {
-            return false
-        }
-
-        if (matrix == null) {
-            edgeFunctions!!.forEach {
-                val pointFromA = it.apply(a)
-                if (pointFromA == b && isPointWithinGraph(pointFromA)) {
-                    return true
-                }
-            }
-            return false
-        }
-
-        // by matrix
-        TODO()
-        var currentLayer = matrix?.get(0)
-
-        var matrixDim = 0
-        while (currentLayer is Array<*>) {
-            currentLayer = currentLayer[0]
-            matrixDim++
-        }
-
-        return false
-    }
-
     fun edgesFromVertex(u: Point): List<Point> {
         if (u.dim != this.dim) {
             throw IllegalArgumentException("Points dim doesn't correspond to graph dim")
@@ -96,8 +46,6 @@ class Graph(
 
     private fun findEdgesFromUByMatrix(u: Point): MutableList<Point> {
         val edgesList = mutableListOf<Point>()
-
-
 
         return edgesList
     }
