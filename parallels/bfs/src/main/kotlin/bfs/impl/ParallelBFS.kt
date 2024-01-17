@@ -4,8 +4,8 @@ import bfs.BFS
 import data.Graph
 import data.Point
 import utils.Fork2JoinUtils
+import utils.parallelScan
 import java.util.concurrent.ForkJoinPool
-import java.util.concurrent.RecursiveAction
 import java.util.concurrent.atomic.AtomicIntegerArray
 
 class ParallelBFS(
@@ -99,7 +99,7 @@ class ParallelBFS(
         if (array.isEmpty()) {
             throw IllegalStateException("Empty array")
         }
-        return Fork2JoinUtils.ParallelScan().scan(array)
+        return array.parallelScan()
     }
 
     private fun seqScan(array: IntArray) {

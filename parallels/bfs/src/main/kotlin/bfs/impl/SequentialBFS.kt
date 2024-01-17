@@ -8,9 +8,9 @@ import java.util.LinkedList
 class SequentialBFS : BFS {
 
     override fun doBFS(graph: Graph, source: Point, destination: Point): IntArray {
-        val d = IntArray(graph.countPointIndex(destination) + 1) { INF }
-        val visited = ArrayList<Int>(graph.countPointIndex(destination) + 1)
-        visited.addAll((0 .. graph.countPointIndex(destination) + 1).map { 0 })
+        val d = Array(graph.countPointIndex(destination) + 1){ INF }
+
+        val visited = Array(graph.countPointIndex(destination) + 1) {0}
         val sourceIndex = graph.countPointIndex(source)
         d[sourceIndex] = 0
 
@@ -27,7 +27,7 @@ class SequentialBFS : BFS {
             }
         }
 
-        return d
+        return d.toIntArray()
     }
 
     companion object {

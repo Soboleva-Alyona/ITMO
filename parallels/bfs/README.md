@@ -1,17 +1,17 @@
-Sequential time: 79326 ms
-Parallel time: 41591 ms
+Sequential time: 105185 ms
+Parallel time: 69459 ms
 ---------------------------------------
-Sequential time: 77217 ms
-Parallel time: 43689 ms
+Sequential time: 159619 ms
+Parallel time: 43391 ms
 ---------------------------------------
-Sequential time: 89570 ms
-Parallel time: 47296 ms
+Sequential time: 133398 ms
+Parallel time: 38005 ms
 ---------------------------------------
-Sequential time: 110735 ms
-Parallel time: 47516 ms
+Sequential time: 149904 ms
+Parallel time: 37764 ms
 ---------------------------------------
-Sequential time: 83814 ms
-Parallel time: 39354 ms
+Sequential time: 142718 ms
+Parallel time: 38703 ms
 ---------------------------------------
-Average sequential time: 88132 ms VS Average parallel time: 43889 ms
-Parallel is 2.0080657 faster then sequential
+Average sequential time: 138164 ms VS Average parallel time: 45464 ms
+Parallel is 3.0389667 faster then sequential
